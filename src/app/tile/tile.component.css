@@ -1,0 +1,65 @@
+.tile {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
+html {
+font-size: 14px;
+}
+
+.tile-icon {
+  width: 33%;
+  margin: 33px 64px;
+}
+
+.tile-text {
+  padding-top: 18px;
+}
+
+.tile-icon img {
+  width:55px
+}
+
+.mon-tile {
+  height: 190px;
+  float: left;
+  margin-right: 10px;
+  border: 1px solid gray;
+  width: 15% !important;
+  box-shadow:1px 1px 1px #00000029;
+  border-radius:10px
+}
+
+.col-2 {
+  flex: 0 0 auto;
+  width: 16.66666667%
+}
+
+.btn-danger {
+  width: 87%
+}
+
+.input-group .btn {
+  position: relative;
+  z-index: 2
+}
+
+.text-center {
+  text-align: center !important
+}
+
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%
+}

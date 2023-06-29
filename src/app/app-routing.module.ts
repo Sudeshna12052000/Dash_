@@ -3,12 +3,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HomeComponent } from './home/home.component';
 import { prometheusComponent } from './prometheus/prometheus.component';
+import { TileComponent } from './tile/tile.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'prometheus', component: prometheusComponent },
+  {path : 'tile' , component : TileComponent},
 ];
 
 @NgModule({
